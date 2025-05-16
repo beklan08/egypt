@@ -4,7 +4,7 @@ import "../css/Header.css";
 const Header = () => {
   return (
     <>
-      <header className="header">
+      <header className="header1">
         <div>
           <h1>
             <span className="bgtext">GOTO</span>EGYPT
@@ -17,7 +17,6 @@ const Header = () => {
           <p>Galleries</p>
           <p>Contact</p>
         </div>
-        <div></div>
       </header>
       <main>
         <img
@@ -29,21 +28,24 @@ const Header = () => {
           <h1 className="text1">THE ANCIENT WORLD</h1>
           <h1 className="text2">Discover the last remaining of </h1>
           <h1 className="text3">ancient Egypt</h1>
-        </div >
+        </div>
         <div className="text10">
           <p className="text11">THE ANCIENT</p>
-          <p className="text12">Egyptian <samp className="bgtext2">civilization</samp></p>
+          <p className="text12">
+            Egyptian <samp className="bgtext2">civilization</samp>
+          </p>
         </div>
-        <p className="text13">
-          The ancient Egyptian civilization, famous for its pyramids, pharaohs,
-          mummies, and tombs, flourished for thousands of years. But what was
-          its lasting impact?
-        </p>
-        <p className="text14">
-        Watch the video below to learn how ancient Egypt contributed to
-        modern-day society with its many cultural developments, particularly in
-        language & mathematics.
-        </p>
+        <div className="text13">
+          <p>The ancient Egyptian civilization, famous for its pyramids,</p>
+          <p>pharaohs, mummies, and tombs, flourished for</p>
+          <p>thousands of years. But what was its lasting impact?</p>
+        </div>
+        <div className="text14">
+          <p>Watch the video below to learn how ancient Egypt contributed to</p>
+          <p>modern-day society with its many cultural developments, particularly</p>
+          <p>in language & mathematics.</p>
+
+        </div>
       </main>
     </>
   );

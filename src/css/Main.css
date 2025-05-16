@@ -1,0 +1,32 @@
+.header3 {
+  height: 400px;
+  width: 100vw;
+  display: flex;
+}
+
+.co {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(249, 227, 191);
+}
+
+.Etext {
+  width: 60%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.nt {
+  width: 50%;
+  height: 400px;
+  background-color: rgb(249, 227, 191);
+}
+
+.EImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px 0 0 40px;
+}
