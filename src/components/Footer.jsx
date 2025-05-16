@@ -4,11 +4,15 @@ import "../css/Footer.css";
 const Footer = () => {
   return (
     <>
-      <div class="form-container">
-        <input type="text" class="input-field" placeholder="Name" />
-        <input type="text" class="input-field" placeholder="Surname" />
-        <input type="email" class="input-field" placeholder="Email Address" />
-        <input type="password" class="input-field" placeholder="Password" />
+      <div classNamcl="form-container">
+        <input type="text" className="input-field" placeholder="Name" />
+        <input type="text" className="input-field" placeholder="Surname" />
+        <input
+          type="email"
+          className="input-field"
+          placeholder="Email Address"
+        />
+        <input type="password" className="input-field" placeholder="Password" />
       </div>
     </>
   );
